@@ -1,0 +1,129 @@
+*{
+	margin: 0;
+	padding:0;
+	font-family: sans-serif;
+}
+/********************************************container*******************/
+.container {
+	background: rgb(199, 129, 164);
+	position: relative;
+	width:100%;
+	height: 100vh;
+	
+}
+.introction-text {
+	position: absolute;
+	top: 20px;
+	left: 100px;
+	color: rgb(80, 87, 86);
+	
+}
+.INTRODUCTION-text h1 {
+	font-size: 50px;
+	font-weight: bold;
+}
+.INTRODUCTION-text p{
+    font-size: 30px;
+    padding: 10px;
+}
+/*********************************CONTACT BOX******************************/
+.contact-box {
+	position: absolute;
+	top:150px;
+	left: 100px;
+	display:inline-flex;
+	background:  linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+	width:1100px;
+	height: 60vh; 
+} 
+.contact-box:hover {
+	transition: 1s;
+	width: 1200px;
+	height: 70vh;
+	cursor: pointer;
+}
+hr {
+	color: rgb(80, 87, 86);
+	
+
+}
+/*********0****************************CONTACT LEFT***********************/
+.contact-left {
+	flex-basis: 60%;
+
+ }
+ .contact-left h3 {
+ 	margin: 10px;
+ 	font-size: 20px;
+ 	color: rgb(80, 87, 86);
+ }
+ .input-row {
+ 	display: flex;
+ 	justify-content: space-around;
+}
+.input-group  label {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(199, 129, 164) ;
+}
+input {
+	border-right:0;
+	border-left: 0; 
+	border-top: 0;
+	background:  rgba(51, 204, 191,0.2);
+	border-bottom: rgb(212, 83, 149)   solid 1px ;
+}
+
+.message {
+    margin-top: 30px;
+    margin-left: 80px;
+}
+.message label {
+    color: rgb(199, 129, 164);
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+ textarea {
+ 	padding: 10px;
+	background:  rgba(51, 204, 191,0.2);
+	border: rgb(212, 83, 149)   solid 1px ;
+
+ }
+button {
+	background: rgb(199, 129, 164);
+	width: 50px;
+	height: 30px;
+	border: rgb(199, 129, 164) solid 2px;
+	color: rgb(116, 130, 129);
+	font-size: 15px;
+}
+/*************************************CONTACT RIGHT*************************/
+.contact-right {
+	flex-basis: 40%;
+	
+}
+h3 {
+	margin: 10px;
+ 	font-size: 20px;
+ 	color: rgb(80, 87, 86);
+}
+.boxes {
+	flex-direction: column;
+	justify-content: space-around;
+}
+.info-box {
+	padding: 10px;
+
+}
+.info-box h4 {
+    margin: 10px;
+ 	font-size: 20px;
+ 	color: rgb(80, 87, 86);
+}
+.info-box p {
+
+ 	font-size: 15px;
+ 	color: rgb(80, 87, 86);
+}
